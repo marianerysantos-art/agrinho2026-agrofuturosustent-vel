@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroFuturo Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho 2026</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#pilares">Pilares</a>
+            <a href="#simulador">Simulador</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade no campo e a preservação do nosso meio ambiente.</p>
+            <a href="#simulador" class="btn">Testar Simulador</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="pilares-section">
+        <h2>Como equilibrar produção e natureza?</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>💧 Gestão de Água</h3>
+                <p>Uso de irrigação gota a gota e captação da chuva para evitar desperdícios.</p>
+            </div>
+            <div class="card">
+                <h3>🌱 Plantio Direto</h3>
+                <p>Protege o solo, evita a erosão e mantém os nutrientes da terra vivos.</p>
+            </div>
+            <div class="card">
+                <h3>🤖 Tecnologia no Campo</h3>
+                <p>Drones e sensores que aplicam insumos apenas onde é realmente necessário.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="simulador-section">
+        <h2>Simulador de Práticas Sustentáveis</h2>
+        <p>Clique nas práticas abaixo para ver o impacto positivo no futuro do planeta:</p>
+        
+        <div class="botoes-simulador">
+            <button onclick="simular('energia')">Instalar Painéis Solares</button>
+            <button onclick="simular('reflorestar')">Reflorestar Margens de Rios</button>
+            <button onclick="simular('Tecnologia')">Usar Drones de Monitoramento</button>
+        </div>
+
+        <div class="resultado-box">
+            <p id="resultado-texto">Selecione uma prática agrícola acima para ver o resultado...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Desenvolvido com foco no Futuro Sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
